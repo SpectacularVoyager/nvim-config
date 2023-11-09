@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF/classes'
+let g:netrw_dirhist_5='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF'
+let g:netrw_dirhist_4='/opt/servers/apache-tomcat-9.0.71/webapps'
+let g:netrw_dirhist_3='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF/classes'
+let g:netrw_dirhist_2='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF'
+let g:netrw_dirhist_1='/home/ankush/Ankush/Sketches/HelloWorld'
+let g:netrw_dirhist_0='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF/classes'
+let g:netrw_dirhist_9='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF'
+let g:netrw_dirhist_8='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF/classes'
+let g:netrw_dirhist_7='/opt/servers/apache-tomcat-9.0.71/webapps/Artemis/WEB-INF'
