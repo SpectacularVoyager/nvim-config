@@ -12,6 +12,10 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {
+	  'christoomey/vim-tmux-navigator',
+	  lazy=false
+  }
 
   use {
 	  'nvim-treesitter/nvim-treesitter',
@@ -20,6 +24,8 @@ return require('packer').startup(function(use)
   use({ 'rose-pine/neovim', as = 'rose-pine',config=function()
 	  vim.cmd('colorscheme rose-pine') end
   })
+  use 'tpope/vim-fugitive'
+  use 'tpope/vim-rhubarb'
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
   use('theprimeagen/harpoon')
