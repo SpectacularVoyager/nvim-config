@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
   use('theprimeagen/harpoon')
   use 'simrat39/rust-tools.nvim'
   use 'mfussenegger/nvim-jdtls'
+  use 'powerline/powerline'
 
 
   use {
