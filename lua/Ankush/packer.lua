@@ -37,7 +37,9 @@ return require('packer').startup(function(use)
   use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 
 
-
+--  use{
+--	'fatih/vim-go'
+--  }
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',

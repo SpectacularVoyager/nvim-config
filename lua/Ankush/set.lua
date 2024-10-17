@@ -22,3 +22,5 @@ vim.opt.termguicolors = true
 
 vim.opt.updatetime = 50
 vim.opt.clipboard = "unnamedplus"
+
+vim.keymap.set("n",'<leader>rn',vim.lsp.buf.rename,{})
